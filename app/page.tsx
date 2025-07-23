@@ -1,13 +1,6 @@
-// Убедитесь, что в начале строки есть 'export default'.
-// Это самая важная часть, которая исправляет ошибку.
 export default function HomePage() {
   return (
     <main className="flex min-h-screen w-full items-center justify-center p-4">
-      {/* 
-        Плашка с анимациями. 
-        animate-float заставляет ее "парить".
-        animate-pulse-shadow создает "живую" тень.
-      */}
       <div
         className="
           flex 
@@ -25,7 +18,6 @@ export default function HomePage() {
           animate-pulse-shadow
         "
       >
-        {/* Временный логотип "T&K" */}
         <h1
           className="
             text-6xl 
@@ -37,8 +29,6 @@ export default function HomePage() {
         >
           T&K
         </h1>
-
-        {/* Текст о разработке */}
         <p className="mt-6 text-sm md:text-base text-neutral-400 tracking-wider">
           Сайт находится в разработке
         </p>
